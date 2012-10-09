@@ -1,0 +1,60 @@
+10
+
+dir
+37
+svn+ssh://welissa@eniac.seas.upenn.edu/home1/w/welissa/277repo/minimaya/3DViewer/GeneratedFiles
+svn+ssh://welissa@eniac.seas.upenn.edu/home1/w/welissa/277repo
+
+
+
+2012-04-24T01:45:47.494965Z
+37
+merritts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18ec4570-8299-11e1-a778-5b408889e191
+
+Release
+dir
+
+ui_my3dviewer.h
+file
+
+
+
+
+
+40604314823c83f1d8d3a55aec7dcdd8
+2012-04-24T01:45:47.494965Z
+37
+merritts
+has-props
+
+qrc_startercode.cpp
+file
+
+
+
+
+
+591530c140a67fed7ad29f48c2354eea
+2012-04-24T00:14:09.539045Z
+36
+merritts
+has-props
+
+Debug
+dir
+

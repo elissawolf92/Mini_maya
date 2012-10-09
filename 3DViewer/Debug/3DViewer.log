@@ -1,0 +1,23 @@
+﻿Build started 4/24/2012 3:37:10 PM.
+     1>Project "S:\mayaWorkingCopy\277repo\minimaya\3DViewer\3DViewer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\3DViewer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Uic'ing my3dviewer.ui...
+         '"\bin\uic.exe"' is not recognized as an internal or external command,
+         operable program or batch file.
+         Rcc'ing startercode.qrc...
+         '"\bin\rcc.exe"' is not recognized as an internal or external command,
+         operable program or batch file.
+         Moc'ing myglwidget.h...
+         '"\bin\moc.exe"' is not recognized as an internal or external command,
+         operable program or batch file.
+         Moc'ing my3dviewer.h...
+         '"\bin\moc.exe"' is not recognized as an internal or external command,
+         operable program or batch file.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): error MSB6006: "cmd.exe" exited with code 9009.
+     1>Done Building Project "S:\mayaWorkingCopy\277repo\minimaya\3DViewer\3DViewer.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.76

@@ -1,0 +1,58 @@
+<<<<<<< .mine
+﻿Build started 4/22/2012 6:07:48 PM.
+=======
+﻿Build started 4/22/2012 5:33:05 AM.
+>>>>>>> .r31
+     1>Project "S:\mayaWorkingCopy\277repo\minimaya\3DViewer\3DViewer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\3DViewer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+<<<<<<< .mine
+         Uic'ing my3dviewer.ui...
+         The system cannot find the path specified.
+         Rcc'ing startercode.qrc...
+         The system cannot find the path specified.
+         Moc'ing myglwidget.h...
+         The system cannot find the path specified.
+         Moc'ing my3dviewer.h...
+         The system cannot find the path specified.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): error MSB6006: "cmd.exe" exited with code 3.
+     1>Done Building Project "S:\mayaWorkingCopy\277repo\minimaya\3DViewer\3DViewer.vcxproj" (build target(s)) -- FAILED.
+=======
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Qt\4.7.1\include /I.\GeneratedFiles\Debug /IC:\Qt\4.7.1\include\qtmain /IC:\Qt\4.7.1\include\QtCore /IC:\Qt\4.7.1\include\QtGui /IC:\Qt\4.7.1\include\QtOpenGL /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Mesh.cpp
+         Mesh.cpp
+     1>s:\mayaworkingcopy\277repo\minimaya\3dviewer\mesh.cpp(444): warning C4700: uninitialized local variable 'HER' used
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"S:\mayaWorkingCopy\277repo\minimaya\\3DViewer.exe" /NOLOGO /LIBPATH:C:\Qt\4.7.1\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\3DViewer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"S:\mayaWorkingCopy\277repo\minimaya\3DViewer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:\mayaWorkingCopy\277repo\minimaya\3DViewer.lib" /MACHINE:X86 Debug\Deformer.obj
+         Debug\Face.obj
+         Debug\moc_my3dviewer.obj
+         Debug\moc_myglwidget.obj
+         Debug\qrc_startercode.obj
+         Debug\glew.obj
+         Debug\Halfedge.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\my3dviewer.obj
+         Debug\myCamera.obj
+         Debug\myglwidget.obj
+         Debug\Vertex.obj
+         3DViewer.vcxproj -> S:\mayaWorkingCopy\277repo\minimaya\3DViewer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"S:\mayaWorkingCopy\277repo\minimaya\\3DViewer.exe;#1" /manifest Debug\3DViewer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\3DViewer.unsuccessfulbuild".
+         Touching "Debug\3DViewer.lastbuildstate".
+     1>Done Building Project "S:\mayaWorkingCopy\277repo\minimaya\3DViewer\3DViewer.vcxproj" (build target(s)).
+>>>>>>> .r31
+
+Build FAILED.
+
+<<<<<<< .mine
+Time Elapsed 00:00:00.69
+=======
+Time Elapsed 00:00:15.20
+>>>>>>> .r31

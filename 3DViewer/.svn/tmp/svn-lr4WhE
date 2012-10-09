@@ -1,0 +1,153 @@
+#ifndef MYGLWIDGET
+#define MYGLWIDGET
+
+#include "glew.h"
+#include <QGLWidget>
+#include <QTimer>
+#include <QKeyEvent>
+#include <QListWidget>
+#include "myCamera.h"
+#include "mesh.h"
+#include "../glm/gtc/matrix_transform.hpp"
+#include "../glm/glm.hpp"
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <QMouseEvent>
+#include <qFileDialog>
+#include <QWheelEvent>
+#include "Deformer.h"
+
+using namespace std;
+
+
+class MyGLWidget : public QGLWidget {
+	Q_OBJECT
+private:
+	//vertex arrays needed for drawing
+	unsigned int vbo;
+	unsigned int cbo;
+	unsigned int nbo;
+	unsigned int ibo;
+
+	//attributes
+	unsigned int positionLocation;
+	unsigned int normalLocation;
+	unsigned int colorLocation;
+
+	// uniforms
+	unsigned int u_projMatrixLocation;
+	unsigned int u_modelMatrixLocation;
+	unsigned int u_lightLocation;
+	
+	//needed to compile and link and use the shaders
+	unsigned int vertexShader;
+	unsigned int fragmentShader;
+	unsigned int shaderProgram;
+
+	//Animation/transformation stuff
+	QTimer* timer;
+
+	//helper function to read shader source and put it in a char array
+	//thanks to Swiftless
+	char* textFileRead(const char*);
+
+	//some other helper functions from CIS 565
+	void printLinkInfoLog(int);
+	void printShaderInfoLog(int);
+
+public:
+	MyGLWidget(QWidget*);
+	~MyGLWidget(void);
+	void initializeGL(void);
+	void paintGL(void);
+	void resizeGL(int, int);
+	void createCube(glm::mat4);
+	void drawTheCube();
+	void keyPressEvent(QKeyEvent*);
+	void mousePressEvent(QMouseEvent *event);
+	void mouseReleaseEvent(QMouseEvent*);
+	void mouseMoveEvent(QMouseEvent *event);
+	void resetHalfEdge();
+	float ttime();
+	bool checkWhichFace(Face*, glm::vec3, int);
+//	void wheelEvent(QWheelEvent *);
+
+	bool ray;
+	glm::vec3 beginning;
+	glm::vec3 ending;
+	glm::vec3 R;
+	Vertex* currentv;
+	bool runhe;
+	vector<HalfEdge*>* fedges;
+	double currx;
+	double curry;
+	double currz;
+	Face* currentf;
+	HalfEdge* currenth;
+	Face* prevf;
+	float rotation;
+	bool mouseRelease;
+	float lastx;
+	float lasty;
+	bool mousemode;
+	void populateLists();
+	QListWidget* listoffaces;
+	QListWidget* listofhe;
+	QListWidget* listofvertices;
+	QListWidget* listofcontrolpoints;
+	glm::vec3 getP(float, glm::vec3, glm::vec3);
+	float getT(glm::vec3, glm::vec3, glm::vec3, glm::vec3);
+
+	Mesh* mesh;
+	void drawFace(glm::mat4, Face*);
+	float rotatesidetoside;
+	float rotateupanddown;
+	bool running;
+	myCamera camera;
+	Deformer deformer;
+
+	QString filename;
+	vector<Vertex*> fileVertices;
+	vector<Face*> fileFaces;
+	vector<HalfEdge*> halfEdges;
+	vector<Vertex*> controlPoints;
+
+	void setUpSyms();
+
+public slots:
+	void play();
+	void stop();
+	void mousemodetoggle();
+	void setCurr(QListWidgetItem*);
+	void setCurr2(QListWidgetItem*);
+	void setCurrHE(QListWidgetItem*);
+	void colorRed(int);
+	void colorBlue(int);
+	void colorGreen(int);
+	void x(double);
+	void y(double);
+	void z(double);
+	void deleteVertex();
+	void quadtwotriangles();
+	void addVertex();
+	void edgeBtwnTwoFaces();
+	void updateFilename(QString);
+	void loadFile();
+	void saveFile();
+	void getXDiv(int);
+	void getYDiv(int);
+	void getZDiv(int);
+
+signals:
+	void red(int);
+	void green(int);
+	void blue(int);
+	void xsig(double);
+	void ysig(double);
+	void zsig(double);
+
+};
+
+#endif

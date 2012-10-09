@@ -1,0 +1,77 @@
+<<<<<<< .mine
+﻿Build started 4/18/2012 10:33:03 PM.
+=======
+﻿Build started 4/18/2012 11:19:49 PM.
+>>>>>>> .r18
+     1>Project "S:\mayaWorkingCopy\277repo\minimaya\3DViewer\3DViewer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\3DViewer.unsuccessfulbuild".
+       CustomBuild:
+<<<<<<< .mine
+         All outputs are up-to-date.
+=======
+         Uic'ing my3dviewer.ui...
+         Rcc'ing startercode.qrc...
+     1>RCC : warning : No resources in 'S:\mayaWorkingCopy\277repo\minimaya\3DViewer\startercode.qrc'.
+         
+         Moc'ing myglwidget.h...
+>>>>>>> .r18
+         Moc'ing my3dviewer.h...
+       ClCompile:
+<<<<<<< .mine
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Qt\4.7.1\include /I.\GeneratedFiles\Debug /IC:\Qt\4.7.1\include\qtmain /IC:\Qt\4.7.1\include\QtCore /IC:\Qt\4.7.1\include\QtGui /IC:\Qt\4.7.1\include\QtOpenGL /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Deformer.cpp GeneratedFiles\Debug\moc_my3dviewer.cpp GeneratedFiles\Debug\moc_myglwidget.cpp main.cpp my3dviewer.cpp myglwidget.cpp
+         Deformer.cpp
+=======
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Qt\4.7.1\include /I.\GeneratedFiles\Debug /IC:\Qt\4.7.1\include\qtmain /IC:\Qt\4.7.1\include\QtCore /IC:\Qt\4.7.1\include\QtGui /IC:\Qt\4.7.1\include\QtOpenGL /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Face.cpp GeneratedFiles\Debug\moc_my3dviewer.cpp GeneratedFiles\Debug\moc_myglwidget.cpp Halfedge.cpp main.cpp Mesh.cpp my3dviewer.cpp myCamera.cpp myglwidget.cpp Vertex.cpp
+         Face.cpp
+     1>Face.cpp(104): warning C4804: '<' : unsafe use of type 'bool' in operation
+     1>Face.cpp(104): warning C4804: '<' : unsafe use of type 'bool' in operation
+     1>Face.cpp(104): warning C4804: '<' : unsafe use of type 'bool' in operation
+     1>Face.cpp(136): warning C4804: '<' : unsafe use of type 'bool' in operation
+     1>Face.cpp(136): warning C4804: '<' : unsafe use of type 'bool' in operation
+     1>Face.cpp(136): warning C4804: '<' : unsafe use of type 'bool' in operation
+>>>>>>> .r18
+         moc_my3dviewer.cpp
+         moc_myglwidget.cpp
+         Halfedge.cpp
+         main.cpp
+         Mesh.cpp
+         my3dviewer.cpp
+         myCamera.cpp
+         myglwidget.cpp
+         Vertex.cpp
+         Generating Code...
+     1>s:\mayaworkingcopy\277repo\minimaya\3dviewer\mesh.cpp(435): warning C4700: uninitialized local variable 'HER' used
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Qt\4.7.1\include /I.\GeneratedFiles\Debug /IC:\Qt\4.7.1\include\qtmain /IC:\Qt\4.7.1\include\QtCore /IC:\Qt\4.7.1\include\QtGui /IC:\Qt\4.7.1\include\QtOpenGL /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_startercode.cpp
+         qrc_startercode.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Qt\4.7.1\include /I.\GeneratedFiles\Debug /IC:\Qt\4.7.1\include\qtmain /IC:\Qt\4.7.1\include\QtCore /IC:\Qt\4.7.1\include\QtGui /IC:\Qt\4.7.1\include\QtOpenGL /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt glew.c
+         glew.c
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"S:\mayaWorkingCopy\277repo\minimaya\\3DViewer.exe" /NOLOGO /LIBPATH:C:\Qt\4.7.1\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\3DViewer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"S:\mayaWorkingCopy\277repo\minimaya\3DViewer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:\mayaWorkingCopy\277repo\minimaya\3DViewer.lib" /MACHINE:X86 Debug\Deformer.obj
+         Debug\Face.obj
+         Debug\moc_my3dviewer.obj
+         Debug\moc_myglwidget.obj
+         Debug\qrc_startercode.obj
+         Debug\glew.obj
+         Debug\Halfedge.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\my3dviewer.obj
+         Debug\myCamera.obj
+         Debug\myglwidget.obj
+         Debug\Vertex.obj
+         3DViewer.vcxproj -> S:\mayaWorkingCopy\277repo\minimaya\3DViewer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"S:\mayaWorkingCopy\277repo\minimaya\\3DViewer.exe;#1" /manifest Debug\3DViewer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\3DViewer.unsuccessfulbuild".
+         Touching "Debug\3DViewer.lastbuildstate".
+     1>Done Building Project "S:\mayaWorkingCopy\277repo\minimaya\3DViewer\3DViewer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+<<<<<<< .mine
+Time Elapsed 00:00:57.58
+=======
+Time Elapsed 00:00:55.80
+>>>>>>> .r18

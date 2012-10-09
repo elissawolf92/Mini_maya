@@ -1,0 +1,33 @@
+<<<<<<< .mine
+﻿Build started 4/11/2012 7:47:47 PM.
+     1>Project "S:\mayaWorkingCopy\277repo\minimaya\3DViewer\3DViewer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\3DViewer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         3DViewer.vcxproj -> S:\mayaWorkingCopy\277repo\minimaya\3DViewer.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\3DViewer.unsuccessfulbuild".
+         Touching "Debug\3DViewer.lastbuildstate".
+     1>Done Building Project "S:\mayaWorkingCopy\277repo\minimaya\3DViewer\3DViewer.vcxproj" (build target(s)).
+=======
+﻿Build started 4/11/2012 5:05:49 PM.
+     1>Project "S:\mayaWorkingCopy\277repo\minimaya\3DViewer\3DViewer.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\3DViewer.lastbuildstate".
+     1>Done Building Project "S:\mayaWorkingCopy\277repo\minimaya\3DViewer\3DViewer.vcxproj" (clean target(s)).
+>>>>>>> .r9
+
+Build succeeded.
+
+<<<<<<< .mine
+Time Elapsed 00:00:02.51
+=======
+Time Elapsed 00:00:00.34
+>>>>>>> .r9
